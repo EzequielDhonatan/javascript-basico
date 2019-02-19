@@ -109,13 +109,28 @@ var n2 = 4;
 // ## RESTO DA DIVISÃO
 // console.log(17 % 2); (SABER SE O NÚMERO É IMPAR OU PAR)
 
+
+
 // ## OPERADORES DE ATRIBUIÇÃO
+// var n1 = 12;
+// var n2 = n1;
+// n1 += 1;
+// n1 -= 7;
+// n1 *= 2;
+// n1 /= 2;
+// console.log(n1);
 
-var n1 = 12;
-var n2 = n1;
 
-n1 += 1;
-n1 -= 7;
-n1 *= 2;
-n1 /= 2;
-console.log(n1);
+// ## OPERADORES DE COMPARAÇÃO
+// console.log(2 == 2);                   (COMPARA SE UM LADO É IGUAL AO OUTRO)
+// console.log("Ezequiel" == "Ezequiel"); (COMPARA SE UM LADO É IGUAL AO OUTRO)
+
+// console.log(2 === '2');                (COMPARA SE O VALOR E O TIPO É IGUAL AO OUTRO)
+// console.log(2 != 3);                   (COMPARA SE UM VALOR É DIFERENTE DO OUTRO)
+// console.log(2 != "3");                 (COMPARA SE UM VALOR É DIFERENTE AO OUTRO)
+// console.log(2 !== "3");                (COMPARA SE UM VALOR E O TIPO É DIFERENTE AO OUTRO)
+
+// console.log(2 > 3);                    (VERIFICA SE UM VALOR É MAIOR QUE AO OUTRO)
+// console.log(2 < 3);                    (VERIFICA SE UM VALOR É MENOR QUE AO OUTRO)
+// console.log(2 >= 3);                   (VERIFICA SE UM VALOR É MAIOR OU IGUAL AO OUTRO)
+// console.log(2 <= 3);                   (VERIFICA SE UM VALOR É MENOR OU IGUAL AO OUTRO)
