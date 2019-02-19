@@ -67,7 +67,7 @@ Nome fazer sentido: a = 'Nome Pessoa';
 var name        = 'Ezequiel Dhonatan';
 var age         = 23;
 var ageTwo      = 90;
-*/
+
 
 var name        = prompt('Qual o seu nome?');
 var age         = prompt('Qual a sua idade?');
@@ -76,3 +76,17 @@ var ageTwo      = 90;
 console.log('O ' + name + ' tem '+ age + ' anos de idade');
 console.log(age + '' + ageTwo);
 console.log(name + ' ' + age);
+*/
+
+
+
+
+/* ********************** OPERADORES ************************** */
+// ARITIMÉTICOS
+var n1 = 12;
+var n2 = 4;
+// console.log(n1 + n2 + 4); SOMA
+// console.log(n1 - n2 - 4);  // SUBTRAÇÃO
+// console.log(n1 * n2);      // MULTIPLICAÇÃO
+// console.log(n1 / n2);      // DIVISÃO
+console.log(n1 ** n2);        // POTENCIAÇÃO
