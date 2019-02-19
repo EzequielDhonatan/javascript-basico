@@ -82,11 +82,16 @@ console.log(name + ' ' + age);
 
 
 /* ********************** OPERADORES ************************** */
-// ARITIMÉTICOS
+// ## ARITIMÉTICOS
 var n1 = 12;
 var n2 = 4;
 // console.log(n1 + n2 + 4); SOMA
 // console.log(n1 - n2 - 4);  // SUBTRAÇÃO
 // console.log(n1 * n2);      // MULTIPLICAÇÃO
 // console.log(n1 / n2);      // DIVISÃO
-console.log(n1 ** n2);        // POTENCIAÇÃO
+// console.log(n1 ** n2);        // POTENCIAÇÃO
+
+// ## ORDEM DE PRIORIDADE DOS OPERADORES ARITIMÉTICOS
+// console.log((4 - 3 + 2 ) * 2);
+// console.log((4 - 2 + 2)  / 2);
+// console.log(((4 - 2 + 2)  / 2 + 2) * 3);
