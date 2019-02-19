@@ -281,3 +281,17 @@ else
 // }
 
 // console.log(calc(2, 4));
+
+
+
+/* ********************** FUNÇÕES RECURSIVAS ************************** */
+// var number = 20;
+
+// function recursive(n) {
+//   console.log(n);
+
+//   if (n > 0 )
+//     return recursive(n - 1);
+// }
+
+// recursive(number);
