@@ -175,3 +175,20 @@ if (4 == 5)
 else
   console.log("É diferente");
 */
+
+
+
+
+
+/* ********************** OPERADORES CONDICIONAIS (TERNÁRIO) ************************** */
+var age   = 18;
+var text  = '';
+
+// if (age >= 18)
+//   text = 'É maior de idade!';
+// else
+//   text = 'É menor de idade';
+
+text = (age >= 18) ? 'É maior de idade!' : 'É menor de idade!';
+
+console.log(text);
