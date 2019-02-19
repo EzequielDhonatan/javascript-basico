@@ -254,3 +254,14 @@ else
 // }
 
 // showLog();
+
+// var n1 = 2;
+// var n2 = 4;
+// var result = ((n1 + n2) * 6) / 2;
+
+// function calc(num1, num2) {
+//   return ((num1 + num2) * 6) / 2;
+// }
+
+// console.log(calc(n1, n2));
+// console.log(calc(4, 6));
