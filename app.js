@@ -255,6 +255,9 @@ else
 
 // showLog();
 
+
+
+/* ********************** FUNÇÕES COM PARÂMETROS ************************** */
 // var n1 = 2;
 // var n2 = 4;
 // var result = ((n1 + n2) * 6) / 2;
@@ -265,3 +268,16 @@ else
 
 // console.log(calc(n1, n2));
 // console.log(calc(4, 6));
+
+
+
+/* ********************** FUNÇÕES COM PARÂMETROS OPCIONAIS ************************** */
+// function calc(n1, n2, n3) {
+//   // if (n3 == undefined) n3 = 2;
+
+//   n3 = (n3 == undefined) ? 2 : n3;
+
+//   return ((n1 + n2) * 6) / n3;
+// }
+
+// console.log(calc(2, 4));
