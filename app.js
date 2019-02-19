@@ -122,15 +122,24 @@ var n2 = 4;
 
 
 // ## OPERADORES DE COMPARAÇÃO
-// console.log(2 == 2);                   (COMPARA SE UM LADO É IGUAL AO OUTRO)
-// console.log("Ezequiel" == "Ezequiel"); (COMPARA SE UM LADO É IGUAL AO OUTRO)
+// console.log(2 == 2);                   // COMPARA SE UM LADO É IGUAL AO OUTRO
+// console.log("Ezequiel" == "Ezequiel"); // COMPARA SE UM LADO É IGUAL AO OUTRO
 
-// console.log(2 === '2');                (COMPARA SE O VALOR E O TIPO É IGUAL AO OUTRO)
-// console.log(2 != 3);                   (COMPARA SE UM VALOR É DIFERENTE DO OUTRO)
-// console.log(2 != "3");                 (COMPARA SE UM VALOR É DIFERENTE AO OUTRO)
-// console.log(2 !== "3");                (COMPARA SE UM VALOR E O TIPO É DIFERENTE AO OUTRO)
+// console.log(2 === '2');                // COMPARA SE O VALOR E O TIPO É IGUAL AO OUTRO
+// console.log(2 != 3);                   // COMPARA SE UM VALOR É DIFERENTE DO OUTRO
+// console.log(2 != "3");                 // COMPARA SE UM VALOR É DIFERENTE AO OUTRO
+// console.log(2 !== "3");                // COMPARA SE UM VALOR E O TIPO É DIFERENTE AO OUTRO
 
-// console.log(2 > 3);                    (VERIFICA SE UM VALOR É MAIOR QUE AO OUTRO)
-// console.log(2 < 3);                    (VERIFICA SE UM VALOR É MENOR QUE AO OUTRO)
-// console.log(2 >= 3);                   (VERIFICA SE UM VALOR É MAIOR OU IGUAL AO OUTRO)
-// console.log(2 <= 3);                   (VERIFICA SE UM VALOR É MENOR OU IGUAL AO OUTRO)
+// console.log(2 > 3);                    // VERIFICA SE UM VALOR É MAIOR QUE AO OUTRO
+// console.log(2 < 3);                    // VERIFICA SE UM VALOR É MENOR QUE AO OUTRO
+// console.log(2 >= 3);                   // VERIFICA SE UM VALOR É MAIOR OU IGUAL AO OUTRO
+// console.log(2 <= 3);                   // VERIFICA SE UM VALOR É MENOR OU IGUAL AO OUTRO
+
+
+// ## OPERADORES LÓGICOS
+var n1 = 12;
+// console.log(typeof n1 == "number");                          // RETORNA O TIPO
+// console.log(typeof n1 == "number" && n1 == 123);             // COMPARA O VALOR É TRUE
+// console.log(typeof n1 == "number" || n1 == 12);              // COMPARA O VALOR É/OU TRUE
+// console.log((typeof n1 == "number" || n1 == 12) && 2 == 2);  // COMPARA O VALOR É TRUE
+// console.log(!true);                                             // COMPARA O VALOR É TRUE
