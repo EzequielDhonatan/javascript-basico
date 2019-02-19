@@ -50,17 +50,17 @@ Undefined: var teste;
 
 
 
- /* ********************** ERROS **************************
+/* ********************** ERROS **************************
 Não Inciar com Números: 123nomeVar = 123;
-  * 
+ * 
 Não utilizar espaços: nome var = 321;
-  * 
+ * 
 Não utilizar caracteres especiais: !@#$%¨&*()-~{}[];.<>\: nome$@#Var = 232132;
-  * 
+ * 
 Utilizar variáveis que criou: area = altura * largura;
-  * 
-  Ter menos de 15 caracteres: nomeDeVariavelComMuitosCaracteres = 321;
-  * 
+ * 
+ Ter menos de 15 caracteres: nomeDeVariavelComMuitosCaracteres = 321;
+ * 
 Nome fazer sentido: a = 'Nome Pessoa';
 */
 
@@ -181,14 +181,63 @@ else
 
 
 /* ********************** OPERADORES CONDICIONAIS (TERNÁRIO) ************************** */
-var age   = 18;
-var text  = '';
+// var age   = 18;
+// var text  = '';
 
 // if (age >= 18)
 //   text = 'É maior de idade!';
 // else
 //   text = 'É menor de idade';
 
-text = (age >= 18) ? 'É maior de idade!' : 'É menor de idade!';
+// text = (age >= 18) ? 'É maior de idade!' : 'É menor de idade!';
 
-console.log(text);
+// console.log(text);
+
+
+
+
+/* ********************** OPERADORES CONDICIONAIS (SWITCH) ************************** */
+// var number = 3;
+// var result = '';
+
+// if (number == 1) {
+//   result = 'Um';
+// }
+// else if (number == 2) {
+//   result = 'Dois';
+// }
+// else if (number == 3) {
+//   result = 'Três';
+// }
+// else if (number == 4) {
+//   result = 'Quatro';
+// }
+// else if (number == 5) {
+//   result = 'Cinco';
+// } else {
+//   result = 'Opção não encontrada!';
+// }
+
+// switch (number) {
+//   case 1:
+//     result = 'Um';
+//     break;
+//   case 2:
+//     result = 'Dois';
+//     break;
+//   case 3:
+//     result = 'Três';
+//     break;
+//   case 4:
+//     result = 'Quatro';
+//     break;
+//   case 5:
+//     result = 'Cinco';
+//     break;
+
+//   default:
+//     result = 'Opção não encontrada!';
+//     break;
+// }
+
+// console.log(result);
