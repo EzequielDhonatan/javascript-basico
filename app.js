@@ -21,38 +21,58 @@ console.log(ezequiel);
 ezequiel = 3.14;
 console.log(ezequiel);
 
-/**
- * ## Tipo de Variáveis
+
+/* ********************** Tipo de Variáveis **************************
+String: 'Sou uma String' (Padrão mais rápido)
+String: "Sou uma String"
  * 
- * # String: 'Sou uma String' (Padrão mais rápido)
- * # String: "Sou uma String"
+Inteiro: 12
  * 
- * # Inteiro: 12
+Booleanos: true / false
  * 
- * # Booleanos: true / false
+Pontos Flutuantes: 3.14159265
  * 
- * # Pontos Flutuantes: 3.14159265
- * 
- * # Array: new Array()
+Array: new Array()
  *         [1,.2,3]
  * 
- * # Objetos: var = car {nome: "Fusion", Ano: 2019, Marca: 'Ford'};
+Objetos: var = car {nome: "Fusion", Ano: 2019, Marca: 'Ford'};
  * 
- * # Undefined: var teste;
- */
+Undefined: var teste;
+*/
 
- /**
-  * ## ERROS
+
+
+
+
+ /* ********************** ERROS **************************
+Não Inciar com Números: 123nomeVar = 123;
   * 
-  * # Não Inciar com Números: 123nomeVar = 123;
+Não utilizar espaços: nome var = 321;
   * 
-  * # Não utilizar espaços: nome var = 321;
+Não utilizar caracteres especiais: !@#$%¨&*()-~{}[];.<>\: nome$@#Var = 232132;
   * 
-  * # Não utilizar caracteres especiais: !@#$%¨&*()-~{}[];.<>\: nome$@#Var = 232132;
+Utilizar variáveis que criou: area = altura * largura;
   * 
-  * # Utilizar variáveis que criou: area = altura * largura;
+  Ter menos de 15 caracteres: nomeDeVariavelComMuitosCaracteres = 321;
   * 
-  * Ter menos de 15 caracteres: nomeDeVariavelComMuitosCaracteres = 321;
-  * 
-  * # Nome fazer sentido: a = 'Nome Pessoa';
-  */
+Nome fazer sentido: a = 'Nome Pessoa';
+*/
+
+
+
+
+
+/* ********************** CONCATENÇÃO ************************** */
+/*
+var name        = 'Ezequiel Dhonatan';
+var age         = 23;
+var ageTwo      = 90;
+*/
+
+var name        = prompt('Qual o seu nome?');
+var age         = prompt('Qual a sua idade?');
+var ageTwo      = 90;
+
+console.log('O ' + name + ' tem '+ age + ' anos de idade');
+console.log(age + '' + ageTwo);
+console.log(name + ' ' + age);
