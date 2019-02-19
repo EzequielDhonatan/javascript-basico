@@ -8,18 +8,24 @@ console.log('Hellow Word');
 /**
  * Variáveis
  */
-var ezequiel = 'Ezequiel Dhonatan';
+// var ezequiel = 'Ezequiel Dhonatan';
 
-console.log(ezequiel);
+// console.log(ezequiel);
 
+/*
 ezequiel = true;
 console.log(ezequiel);
+*/
 
+/*
 ezequiel = 1999;
 console.log(ezequiel);
+*/
 
+/*
 ezequiel = 3.14;
 console.log(ezequiel);
+*/
 
 
 /* ********************** Tipo de Variáveis **************************
@@ -83,8 +89,8 @@ console.log(name + ' ' + age);
 
 /* ********************** OPERADORES ************************** */
 // ## ARITIMÉTICOS
-var n1 = 12;
-var n2 = 4;
+// var n1 = 12;
+// var n2 = 4;
 // console.log(n1 + n2 + 4); SOMA
 // console.log(n1 - n2 - 4);  // SUBTRAÇÃO
 // console.log(n1 * n2);      // MULTIPLICAÇÃO
@@ -137,9 +143,35 @@ var n2 = 4;
 
 
 // ## OPERADORES LÓGICOS
-var n1 = 12;
+// var n1 = 12;
 // console.log(typeof n1 == "number");                          // RETORNA O TIPO
 // console.log(typeof n1 == "number" && n1 == 123);             // COMPARA O VALOR É TRUE
 // console.log(typeof n1 == "number" || n1 == 12);              // COMPARA O VALOR É/OU TRUE
 // console.log((typeof n1 == "number" || n1 == 12) && 2 == 2);  // COMPARA O VALOR É TRUE
 // console.log(!true);                                             // COMPARA O VALOR É TRUE
+
+
+
+
+
+/* ********************** OPERADORES CONDICIONAIS ************************** */
+// var number = true;
+
+/*
+if (number)
+  console.log("É verdadeiro!");
+*/
+
+/*
+if (2 == 2 && 3 == "3") {
+  console.log('*************');
+  console.log("2 é igual a 2");
+}
+*/
+
+/*
+if (4 == 5)
+  console.log("É igual");
+else
+  console.log("É diferente");
+*/
