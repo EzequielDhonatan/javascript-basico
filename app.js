@@ -95,3 +95,13 @@ var n2 = 4;
 // console.log((4 - 3 + 2 ) * 2);
 // console.log((4 - 2 + 2)  / 2);
 // console.log(((4 - 2 + 2)  / 2 + 2) * 3);
+
+// ## INCREMENTO
+// console.log(n1++); // INCREMENTO (n1 = n1 +1)
+// console.log(n1); // RESULTADO INCREMENTO
+// console.log(++n1); // PRÉ INCREMENTO
+
+// ## DECREMENTO
+// console.log(n1--); // DECREMENTO
+// console.log(n1); // RESULTADO PRÉ DECREMENTO
+// console.log(--n1); // RESULTADO PRÉ DECREMENTO
