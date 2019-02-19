@@ -105,3 +105,6 @@ var n2 = 4;
 // console.log(n1--); // DECREMENTO
 // console.log(n1); // RESULTADO PRÉ DECREMENTO
 // console.log(--n1); // RESULTADO PRÉ DECREMENTO
+
+// ## RESTO DA DIVISÃO
+// console.log(17 % 2); (SABER SE O NÚMERO É IMPAR OU PAR)
