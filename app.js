@@ -354,3 +354,23 @@ else
 
 // names.shift("Cursos"); // REMOVE UM ITEM NO INÍCIO DO ARRAY
 // console.log(names);
+
+
+// FUNÇÕES ARRAYS, EX: 2
+// var names = [
+//   "Ezequiel", "Dhonatan"
+// ];
+
+// var numbers = [3, 5, 4, 1, 2];
+
+// console.log(names.join(' - ')); // JUNTA OS ARRAYS COM SEPARADOR
+// console.log(numbers.reverse()); // TRÁS OS ITENS DE TRÁS PARA FRENTE
+// console.log(numbers.sort()); // FORMA ORDENADA
+
+// console.log(numbers.sort(function (val1, val2) {
+//   return val1 > val2
+// })); // ORDENA DE FORMA CRESCENTE
+
+// console.log(numbers.sort(function (val1, val2) {
+//   return val1 > val2
+// })); // ORDENA DE FORMA DECRESCENTE
