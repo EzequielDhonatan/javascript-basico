@@ -311,3 +311,19 @@ else
 // }
 
 // console.log(aninhadas(2, 4, 4));
+
+
+
+
+/* ********************** ARRAYS ************************** */
+// DEFINIR ARRAYS
+
+// var names = ['Ezequiel', 'Dhonatan', 'Souza'];
+// var names = new Array('Ezequiel', 'Dhonatan', 'Souza');
+// var names = new Array(5); // INICIA COM TAMANHO DE 5 ITENS
+// var names = []; // ARRAY VAZIO
+
+// console.log(names);
+// console.log(names.length); // RETORNA A QUANTIDADE DE ARRAYS
+// console.log(names[0]); // ACESSA A POSIÇÃO DO ARRAY
+// console.log(names[0]); // ACESSA A POSIÇÃO DO ARRAY
