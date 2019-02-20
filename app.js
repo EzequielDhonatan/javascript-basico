@@ -374,3 +374,20 @@ else
 // console.log(numbers.sort(function (val1, val2) {
 //   return val1 > val2
 // })); // ORDENA DE FORMA DECRESCENTE
+
+
+// FUNÇÕES ARRAYS, EX: 3
+// var names = [
+//   "Ezequiel", "Dhonatan"
+// ];
+
+// var numbers = [3, 5, 4, 1, 3];
+
+// console.log(names.indexOf("Ezequiel")); // POSIÇÃO INÍCIO ARRAY
+// console.log(numbers.lastIndexOf(3)); // POSIÇÃO FIM ARRAY
+
+// var result = numbers.findIndex(function (item) {
+//   return itemm == 5;
+// });
+
+// console.log(result);
