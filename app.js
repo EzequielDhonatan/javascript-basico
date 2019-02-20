@@ -327,3 +327,30 @@ else
 // console.log(names.length); // RETORNA A QUANTIDADE DE ARRAYS
 // console.log(names[0]); // ACESSA A POSIÇÃO DO ARRAY
 // console.log(names[0]); // ACESSA A POSIÇÃO DO ARRAY
+
+
+// FUNÇÕES ARRAYS, EX: 1
+// var names = [
+//   "Ezequiel", 
+//   "Dhonatan",
+//   [1,2,3],
+// ];
+
+// console.log(names);
+
+// console.log(names[2]); // RETORNA A POSIÇÃO DO ARRAY
+// names[0] = "Ezequiel Dhonatan";
+// console.log(names[2]); // RETORNA A POSIÇÃO DO ARRAY
+
+// names.push("Cursos"); // ADICIONA UM ITEM NO FINAL DO ARRAY
+// console.log(names);
+
+// names.unshift("Start"); // ADICIONA UM ITEM NO INÍCIO DO ARRAY
+// names.unshift("End"); // ADICIONA UM ITEM NO INÍCIO DO ARRAY
+// console.log(names);
+
+// names.pop("Cursos"); // REMOVE UM ITEM NO FINAL DO ARRAY
+// console.log(names);
+
+// names.shift("Cursos"); // REMOVE UM ITEM NO INÍCIO DO ARRAY
+// console.log(names);
