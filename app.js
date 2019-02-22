@@ -381,7 +381,7 @@ else
 //   "Ezequiel", "Dhonatan"
 // ];
 
-// var numbers = [3, 5, 4, 1, 3];
+// var numbers = [3, 5, 4, 1, 3]; 
 
 // console.log(names.indexOf("Ezequiel")); // POSIÇÃO INÍCIO ARRAY
 // console.log(numbers.lastIndexOf(3)); // POSIÇÃO FIM ARRAY
@@ -391,3 +391,22 @@ else
 // });
 
 // console.log(result);
+
+
+
+// FUNÇÕES ARRAYS, EX: 4
+var names = [
+  "Ezequiel", "Dhonatan"
+];
+  
+var numbers = [3, 5, 4, 1, 3]; 
+
+console.log(names);
+console.log(names.concat(numbers));
+
+numbers.sort();
+console.log(numbers);
+console.log(numbers.slice(1, 3));
+console.log(numbers.slice(1, numbers.length));
+
+console.log(numbers.toString());
