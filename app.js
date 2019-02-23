@@ -395,18 +395,48 @@ else
 
 
 // FUNÇÕES ARRAYS, EX: 4
-var names = [
-  "Ezequiel", "Dhonatan"
-];
+// var names = [
+//   "Ezequiel", "Dhonatan"
+// ];
   
-var numbers = [3, 5, 4, 1, 3]; 
+// var numbers = [3, 5, 4, 1, 3]; 
 
-console.log(names);
-console.log(names.concat(numbers));
+// console.log(names);
+// console.log(names.concat(numbers));
 
-numbers.sort();
-console.log(numbers);
-console.log(numbers.slice(1, 3));
-console.log(numbers.slice(1, numbers.length));
+// numbers.sort();
+// console.log(numbers);
+// console.log(numbers.slice(1, 3));
+// console.log(numbers.slice(1, numbers.length));
 
-console.log(numbers.toString());
+// console.log(numbers.toString());
+
+
+// FUNÇÕES ARRAYS, EX: 5
+// var names = [
+//   "Ezequiel", "Dhonatan"
+// ];
+
+// var numbers = [3, 5, 4, 1, 3]; 
+
+// console.log(names);
+
+// var result = names.map(function (item) {
+//   return item.toUpperCase();
+// });
+
+// console.log(result);
+
+// console.log(numbers);
+
+// result = numbers.map(function (value) {
+//   return value * 2;
+// });
+
+// console.log(result);
+
+// result = numbers.filter(function (item) {
+//   return item == 2 || item  == 3 || item == 1;
+// });
+
+// console.log(result);
