@@ -457,3 +457,19 @@ else
 // });
 
 // console.log(result);
+
+
+// FUNÇÕES ARRAYS, EX: 7
+// var numbers = [1, 2, 3, 4, 5];
+
+// var result = numbers.reduce(function (previousValue, currenteValue, currentIndex, items) {
+//   return previousValue + currenteValue;
+// });
+
+// console.log(result);
+
+// result = numbers.reduceRight(function (previousValue, currenteValue, currentIndex, items) {
+//   return previousValue + currenteValue;
+// });
+
+// console.log(result);
