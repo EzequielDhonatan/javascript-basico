@@ -302,7 +302,7 @@ else
 //   function calc(n) {
 //     return n * n3;
 //   }
-  
+
 //   return calc(n1) + calc(n2);
 // }
 
@@ -398,7 +398,7 @@ else
 // var names = [
 //   "Ezequiel", "Dhonatan"
 // ];
-  
+
 // var numbers = [3, 5, 4, 1, 3]; 
 
 // console.log(names);
@@ -473,3 +473,27 @@ else
 // });
 
 // console.log(result);
+
+
+
+
+/* ********************** OBJETOS ************************** */
+// var ezequiel = {
+//   name: 'Ezequiel',
+//   lastName: 'Dhonatan',
+
+//   fullName: function () {
+//     return this.name + ' ' + this.lastName;
+//   },
+
+//   fullNameTwo: function (separetor) {
+//     return this.name + separetor + this.lastName; 
+//   },
+// };
+
+// console.log(ezequiel.fullName());
+
+// ezequiel.name = 'Other';
+// console.log(ezequiel.fullName());
+
+// console.log(ezequiel.fullNameTwo(' - '));
