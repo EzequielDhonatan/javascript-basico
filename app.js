@@ -615,3 +615,15 @@ else
 // REMOVER UM ITEM ESPECÍFICO OU TODOS OS ITENS COM CLEAR
 // localStorage.removeItem('cart');
 // localStorage.clear();
+
+
+
+// if (localStorage.hasOwnProperty('USER')) {
+//   var name = localStorage.getItem('USER');
+
+//   alert('Olá ' + name + '!');
+// } else {
+//   var name = prompt('Qual o seu nome?');
+
+//   localStorage.setItem('USER', name);
+// }
