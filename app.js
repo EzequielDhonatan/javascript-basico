@@ -578,4 +578,20 @@ else
 //   i++;
 // } while (i <= 10);
 
+// FOREACH
+// var cars = [
+//   {name: 'Car 1', year: 2000},
+//   {name: 'Car 2', year: 2001},
+//   {name: 'Car 3', year: 2002},
+//   {name: 'Car 4', year: 2003},
+//   {name: 'Car 5', year: 2004},
+//   {name: 'Car 6', year: 2005},
+// ];
+
+// cars.forEach(function (element, index, array) {
+//   var result = 'Carro: ' + element.name + ', Ano: ' + element.year;
+
+//   console.log(result);
+// });
+
 // console.log('Depois');
