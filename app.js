@@ -478,9 +478,12 @@ else
 
 
 /* ********************** OBJETOS ************************** */
+// var name = 'Ezequiel';
+// var lastName = 'Dhonatan';
+
 // var ezequiel = {
-//   name: 'Ezequiel',
-//   lastName: 'Dhonatan',
+//   name: name,
+//   lastName: lastName,
 
 //   fullName: function () {
 //     return this.name + ' ' + this.lastName;
@@ -497,3 +500,12 @@ else
 // console.log(ezequiel.fullName());
 
 // console.log(ezequiel.fullNameTwo(' - '));
+
+
+// OBJETOS, EX: 2
+// var person =  new Object();
+// person.name = 'Ezequiel';
+// person.lastName = 'Dhonatan';
+// person.fullName = person.name + ' ' + person.lastName;
+// // console.log(person.fullName);
+// console.log(person['name']);
