@@ -568,4 +568,14 @@ else
 
 // }
 
+
+// DO WHILE:
+// var i = 90;
+
+// do {
+//   console.log(i);
+
+//   i++;
+// } while (i <= 10);
+
 // console.log('Depois');
