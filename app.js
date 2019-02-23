@@ -595,3 +595,23 @@ else
 // });
 
 // console.log('Depois');
+
+
+
+
+/* ********************** LOCALSTORAGE ************************** */
+
+// DEFINI UM VALOR (SALVA ALGUMA INFORMAÇÃO)
+// localStorage.setItem('NAME', 'Ezequiel Dhonatan');
+// localStorage.setItem('cart', [1, 2, 3, 4, 5]);
+
+// RECUPERA UM VALOR
+// console.log(localStorage.getItem('NAME'));
+
+// VERIFICA SE UM VALOR EXISTE
+// console.log(localStorage.getItem('NAME') !== null);
+// console.log(localStorage.hasOwnProperty('NAME'));
+
+// REMOVER UM ITEM ESPECÍFICO OU TODOS OS ITENS COM CLEAR
+// localStorage.removeItem('cart');
+// localStorage.clear();
