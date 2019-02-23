@@ -412,6 +412,7 @@ else
 // console.log(numbers.toString());
 
 
+
 // FUNÇÕES ARRAYS, EX: 5
 // var names = [
 //   "Ezequiel", "Dhonatan"
@@ -437,6 +438,22 @@ else
 
 // result = numbers.filter(function (item) {
 //   return item == 2 || item  == 3 || item == 1;
+// });
+
+// console.log(result);
+
+
+// FUNÇÕES ARRAYS, EX: 6
+// var numbers = [3, 5, 4, 1, 3]; 
+
+// var result = numbers.every(function (value) {
+//   return value >= 1 && value <= 5;
+// });
+
+// console.log(result);
+
+// var result = numbers.some(function (value) {
+//   return value >= 5;
 // });
 
 // console.log(result);
